@@ -1,0 +1,30 @@
+DBMS- MySQL,MongoDB,PosgreSQL
+Python
+CP
+DS
+DAA
+React
+C
+CN
+SE
+Android
+JS Projects
+Webflow
+JSON
+NodeJS
+
+Technical Skills:
+
+DevOps (Docker, Kubernetes, Ansible, Chef, Puppet, Jenkins, NodeJS, DevSecOps etc.),
+
+Cloud Computing (Microsoft Azure, AWS, or Google),
+
+Cybersecurity (Addressing Evolving Security Threats),
+
+Software development (python, angular, java, javascript, HTML, CSS, c#, etc),
+
+Database (SQL, PL/SQL, MongoDB, MariaDB, MySQL etc),
+
+Servers (Configuration management tools, Automation of tasks related to building, testing and delivering or deploying software, etc),
+
+Operating systems (Windows, Linux, iOS).

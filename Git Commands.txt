@@ -7,6 +7,9 @@ git status
 git add <filename>
 --add the file to the   repo and waits for the commit
 
+git add .
+-- (.) means all the changes happened in the repo
+
 git commit -m(message) "Your Message"
 --to save the changes in the repo
 
@@ -21,4 +24,20 @@ git checkout <branchname>
 
 git checkout -b <branchname>
 --to create a new branch and all get into that new branch in one command
+
+git merge <branchname>
+--merges that branch with the current branch(master)
+
+git branch <branchname> -d
+--deletes the branch
+
+git branch <branchname> -D
+--force deletes the branch irrespective of uncommited changes or unmerged branches
+
+aeughrqpgnvp[nbor;kr
+lggviroviov
+dipesh2=vermamgial.com
+dipesh3vera@gmail.om
+dipesh3verma@gmail.com
+
 
