@@ -40,3 +40,5 @@ git log
 git revert <commit ID>
 --revert/undo that commit from that repo
 
+git rm(remove) --cached <filename>
+--to remove the file from your host machine cache.
