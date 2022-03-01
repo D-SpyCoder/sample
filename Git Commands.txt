@@ -33,3 +33,10 @@ git branch <branchname> -d
 
 git branch <branchname> -D
 --force deletes the branch irrespective of uncommited changes or unmerged branches
+
+git log 
+--shows all the commits and changes happened in the repo with their commit id and their commit message
+
+git revert <commit ID>
+--revert/undo that commit from that repo
+
