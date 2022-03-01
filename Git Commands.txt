@@ -1,0 +1,12 @@
+git init(initialize)
+--makes a .git folder
+
+git status 
+--tells the status of the repo
+
+git add <filename>
+--add the file to the   repo and waits for the commit
+
+git commit -m(message) "Your Message"
+--to save the changes in the repo
+
