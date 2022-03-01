@@ -10,3 +10,15 @@ git add <filename>
 git commit -m(message) "Your Message"
 --to save the changes in the repo
 
+git branch <branchname>
+--used to create a branch
+
+git branch
+--list all the branches in that repo including master branch
+
+git checkout <branchname>
+--to get into that brnahc
+
+git checkout -b <branchname>
+--to create a new branch and all get into that new branch in one command
+
