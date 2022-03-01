@@ -1,44 +1,62 @@
 git init(initialize)
 --makes a .git folder
+Create an empty GIT repository in your development directory
 
 git status 
 --tells the status of the repo
+Show the current state of the repository including un-added and un-committed files
 
 git add <filename>
 --add the file to the   repo and waits for the commit
+Add a file to the repository staging area
 
 git add .
 -- (.) means all the changes happened in the repo
+Add all new or changed files to the repository staging area (the period means all)
 
 git commit -m(message) "Your Message"
 --to save the changes in the repo
+Commit all changes to the repository
 
 git branch <branchname>
 --used to create a branch
+Create a new branch of the project
 
 git branch
 --list all the branches in that repo including master branch
 
 git checkout <branchname>
---to get into that brnahc
+--to get into that branch
+Switch branches and check-out all files
 
 git checkout -b <branchname>
 --to create a new branch and all get into that new branch in one command
+Create a new branch and check-out files in one command
 
 git merge <branchname>
 --merges that branch with the current branch(master)
+Merge two branches together (go to the destination branch first)
 
 git branch <branchname> -d
 --deletes the branch
+Delete a branch that you no longer need
 
 git branch <branchname> -D
 --force deletes the branch irrespective of uncommited changes or unmerged branches
 
 git log 
 --shows all the commits and changes happened in the repo with their commit id and their commit message
+View commit history (including long commit ID numbers)
 
 git revert <commit ID>
 --revert/undo that commit from that repo
+Revert all files back to a previous commit point
 
 git rm(remove) --cached <filename>
---to remove the file from your host machine cache.
+--to remove the file from your host machine cache
+
+git remote add origin <url of git repo>.git
+--to connect your remote project to the github repo
+
+git push -u origin <main branch>
+--to push the changes into the github main branch
